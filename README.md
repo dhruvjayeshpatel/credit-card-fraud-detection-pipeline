@@ -5,10 +5,6 @@ transactions through two paths — a **batch load** of historical data and a **l
 of new events — cleans them, shapes them into a star schema, and shows everything in a
 Power BI dashboard.
 
-> ✅ **Status:** Complete — batch, streaming, and reporting all working
-
----
-
 ## Architecture
 
 ![Architecture diagram](architecture/architecture_diagram.svg)
