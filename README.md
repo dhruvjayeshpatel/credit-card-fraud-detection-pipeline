@@ -7,7 +7,7 @@ Power BI dashboard.
 
 ## Architecture
 
-![Architecture diagram](architecture/architecture_diagram.svg)
+![Architecture diagram](architecture/architecture_diagram.png)
 
 How the data actually moves — batch travels as one big chunk (blue), streaming as a
 steady trickle of events (red), and both end up in the same gold star schema:
