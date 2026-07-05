@@ -149,16 +149,6 @@ and **red only for fraud** — so anywhere you see red, it means the same thing.
 
 ---
 
-## Cost
-
-The whole build cost a few dollars, almost all of it Databricks cluster hours. The tricks
-that kept it that low: serverless SQL instead of a dedicated pool, a single-node cluster
-that auto-terminates after 15 minutes, creating Event Hubs last and deleting it first
-(it bills ~$0.03/hour just for existing), and replaying events fast instead of in real
-time. Data size was never the cost driver — leaving things running is.
-
----
-
 ## Repository structure
 
 ```
