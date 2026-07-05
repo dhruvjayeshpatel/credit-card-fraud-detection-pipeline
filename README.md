@@ -153,11 +153,11 @@ azure-fraud-detection-pipeline/
 ├── README.md
 │
 ├── architecture/
-│   ├── architecture_diagram.svg      # static diagram (also .png)
-│   └── data_flow.gif                 # animated batch + streaming flow
+│   ├── architecture_diagram.svg     
+│   └── data_flow.gif               
 │
 ├── scripts/
-│   └── event_hub_producer.py         # replays CSV rows as JSON events
+│   └── event_hub_producer.py        
 │
 ├── databricks/
 │   ├── batch/
